@@ -1,5 +1,6 @@
 
 import './App.css';
+import UseState from './Hooks/UseState';
 import ErrorBoundry from './component/ErrorBoundry';
 import ErrorBoundryTest from './component/ErrorBoundryTest';
 import HighComp_1 from './component/HighComp_1';
@@ -15,8 +16,9 @@ function App() {
       <ErrorBoundry>
         <ErrorBoundryTest name="jocker" />
       </ErrorBoundry> */}
-      <HighComp_1/>
-      <HighComp_2/>
+      {/* <HighComp_1/>
+      <HighComp_2/> */}
+      <UseState/>
     </div>
   );
 }
