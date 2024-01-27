@@ -8,8 +8,9 @@ export default function UseEffect_2() {
     setY(e.clientY);
   }
   useEffect(()=>{
+    console.log("ese Effect")
     window.addEventListener("mousemove",mousePosition)
-  })
+  },[])
 
   return (
     <div>
