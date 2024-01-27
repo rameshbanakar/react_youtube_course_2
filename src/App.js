@@ -2,6 +2,7 @@
 import './App.css';
 import UseEffect from './Hooks/UseEffect';
 import UseEffect_2 from './Hooks/UseEffect_2';
+import UseEffect_3 from "./Hooks/UseEffect_3";
 import UseState from './Hooks/UseState';
 import ErrorBoundry from './component/ErrorBoundry';
 import ErrorBoundryTest from './component/ErrorBoundryTest';
@@ -21,7 +22,7 @@ function App() {
       {/* <HighComp_1/>
       <HighComp_2/> */}
       {/* <UseState/> */}
-      <UseEffect_2/>
+      <UseEffect_3/>
     </div>
   );
 }
