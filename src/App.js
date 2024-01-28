@@ -1,5 +1,6 @@
 
 import './App.css';
+import CleanUp from './Hooks/CleanUp';
 import UseEffect from './Hooks/UseEffect';
 import UseEffect_2 from './Hooks/UseEffect_2';
 import UseEffect_3 from "./Hooks/UseEffect_3";
@@ -22,7 +23,8 @@ function App() {
       {/* <HighComp_1/>
       <HighComp_2/> */}
       {/* <UseState/> */}
-      <UseEffect_3/>
+      {/* <UseEffect_3/> */}
+      <CleanUp/>
     </div>
   );
 }
